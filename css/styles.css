@@ -4,8 +4,6 @@ body {
 
 h1 {
   font-weight: 800;
-  /* font-family: 'Montserrat', sans-serif; */
-  /* font-family: 'Ubuntu', sans-serif; */
   font-size: 3.5rem;
   line-height: 1.5;
 }
@@ -75,10 +73,12 @@ p {
   right: 27%;
 }
 
+
+
+
 /* Feature list */
 #features {
   text-align: center;
-  /* margin: 100px auto; */
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
@@ -127,7 +127,7 @@ p {
 /* Pricing */
 
 #pricing {
-  padding: 100px;
+  padding: 10%;
   /* margin: 5%; */
   text-align: center;
 }
@@ -139,13 +139,13 @@ p {
 @media (max-width:993px) {
 
   .main-image-iphone {
-
     transform: rotate(0);
     position: static;
   }
 
   #title {
     text-align: center;
+    font-size: 2rem;
   }
 }
 
@@ -171,4 +171,19 @@ p {
 
 .footer-icon{
   padding: 3% 1%;
+}
+
+
+/* Title Text */
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .cta-text {
+    font-size: 1.5rem;
+  }
 }
